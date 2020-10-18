@@ -16,7 +16,7 @@ This is a copy of the world famous e-commerce webiste i.e. Amazon. Just tried my
 ## Clone the project
 
 ```
-git clone
+git clone https://github.com/shivkaansh/Amazon_clone_reactJS.git
 cd amazon_clone_React_JS
 npm i
 npm start
