@@ -8,6 +8,8 @@
   background-color: #f3f3f3;
   border: 1px solid #dddddd;
   border-radius: 3px;
+  position: sticky;
+  top: 4rem;
 }
 
 .subtotal__gift {
@@ -28,4 +30,12 @@
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+}
+
+@media only screen and (max-width: 700px) {
+  .subtotal {
+    width: auto;
+    position: sticky;
+    top: 4rem;
+  }
 }

@@ -46,10 +46,14 @@ function Header() {
                         <ArrowDropDownIcon className="arrows" />
                     </div>
 
+
+                    <Link to="./login">
                     <div className="header__option">
                         <span style={header__optionLineOne}>Hello, Sign in</span>
                         <span style={header__optionLineTwo}>Account & Lists</span>
                     </div>
+                    </Link>
+
 
                     <div className="header__option">
                     <span style={header__optionLineOne}>Returns</span>

@@ -11,3 +11,4 @@ export const StateProvider = ({reducer, initialState, children}) => (
 )
 //This is how we use it inside of a component
 export const useStateValue = () => useContext(StateContext)
+

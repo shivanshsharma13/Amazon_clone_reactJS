@@ -22,6 +22,9 @@
 
 @media only screen and (max-width: 700px) {
   .home__row {
-    padding-top: 50px;
+    display: inline-block;
+  }
+  .home__image {
+    margin-bottom: 0px;
   }
 }
